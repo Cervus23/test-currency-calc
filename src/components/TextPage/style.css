@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+.textPage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1129px;
+  height: 615px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin-top: 166px;
+}
+
+.textPage-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Rubik', sans-serif;
+  color: #007fc7;
+  margin-top: 76px;
+  margin-left: 80px;
+  margin-bottom: 42px;
+}
+
+.textPage-text {
+  text-align: left;
+  width: 370px;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  margin-left: 80px;
+}

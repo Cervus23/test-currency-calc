@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+.form {
+  width: 1129px;
+  height: 615px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  margin-top: 166px;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 80px;
+}
+
+.field-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.form-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Rubik', sans-serif;
+  color: #007fc7;
+  margin-top: 76px;
+  margin-bottom: 48px;
+}
+
+.currency-input {
+  width: 400px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 20px;
+  outline: none;
+  padding-left: 16px;
+}
+
+.currency-input::placeholder {
+  font-size: 16px;
+  line-height: 19px;
+  vertical-align: top;
+  font-family: 'Roboto', sans-serif;
+  color: #505050;
+}
+
+.error {
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: 'Roboto', sans-serif;
+  color: #ff2c2c;
+  margin-left: 16px;
+}
+
+.input-error {
+  border: 1px solid #ff2c2c;
+}
+
+.answer {
+  margin-top: 19px;
+  margin-left: 16px;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-submit {
+  margin-top: 46px;
+  margin-left: 80px;
+  background: #007fc7;
+  border-radius: 25px;
+  color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  padding: 11px 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background: #2f80af;
+}
+
+.btn-submit:active {
+  background: #015c90;
+}

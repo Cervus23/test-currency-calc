@@ -28,9 +28,9 @@ const FinalForm =
   const fetchSaleValue = async () => {
     togglePreloader();
     const result = await axios(
-      'https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5',
+      'https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=3',
     );
-    const sales = +result.data[0].sale * 1
+    const sales = +parseFloat(result.data[2].sale).toFixed(2)
     setSaleValue(sales)
     togglePreloader();
   }

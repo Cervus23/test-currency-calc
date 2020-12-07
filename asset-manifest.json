@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/test-currency-calc/static/css/main.82a7d826.chunk.css",
+    "main.js": "/test-currency-calc/static/js/main.2a68ffb9.chunk.js",
+    "main.js.map": "/test-currency-calc/static/js/main.2a68ffb9.chunk.js.map",
+    "runtime-main.js": "/test-currency-calc/static/js/runtime-main.e6b80a88.js",
+    "runtime-main.js.map": "/test-currency-calc/static/js/runtime-main.e6b80a88.js.map",
+    "static/js/2.a5680f22.chunk.js": "/test-currency-calc/static/js/2.a5680f22.chunk.js",
+    "static/js/2.a5680f22.chunk.js.map": "/test-currency-calc/static/js/2.a5680f22.chunk.js.map",
+    "index.html": "/test-currency-calc/index.html",
+    "precache-manifest.30b7ada195d4f66f5836f60ee7a8ba94.js": "/test-currency-calc/precache-manifest.30b7ada195d4f66f5836f60ee7a8ba94.js",
+    "service-worker.js": "/test-currency-calc/service-worker.js",
+    "static/css/main.82a7d826.chunk.css.map": "/test-currency-calc/static/css/main.82a7d826.chunk.css.map",
+    "static/js/2.a5680f22.chunk.js.LICENSE.txt": "/test-currency-calc/static/js/2.a5680f22.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6b80a88.js",
+    "static/js/2.a5680f22.chunk.js",
+    "static/css/main.82a7d826.chunk.css",
+    "static/js/main.2a68ffb9.chunk.js"
+  ]
+}

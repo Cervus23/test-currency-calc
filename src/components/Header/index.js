@@ -1,10 +1,10 @@
 import React from 'react'
-import FinalForm from '../FinalForm/index'
-import TextPage from '../TextPage/index'
+import FinalForm from '../../contaiers/FinalForm'
+import TextPage from '../../contaiers/TextPage'
 import {Route, NavLink} from 'react-router-dom'
 import './style.css'
 
-const Navigation = () => {
+const Header = () => {
   return (
     <div className="container">
       <nav className="navigation">
@@ -13,7 +13,7 @@ const Navigation = () => {
             <NavLink to="/"  className='link calc-link' > Калькулятор </NavLink>
           </li>
           <li>
-            <NavLink to={`/text/textpageid213/${new Date().toDateString()}`}  className='link text-link'> Тектовая </NavLink>
+            <NavLink to={`/text/textpageid213/${new Date().toDateString()}`}  className='link text-link'> Текстовая </NavLink>
           </li>
         </ul>
       </nav>
@@ -25,4 +25,4 @@ const Navigation = () => {
   )
 }
 
-export default Navigation
+export default Header
